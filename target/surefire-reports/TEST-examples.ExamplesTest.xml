@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExamplesTest" time="2.41" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Administrator\Desktop\Programming\Karate\karate-practice\target\test-classes;C:\Users\Administrator\Desktop\Programming\Karate\karate-practice\target\classes;C:\Users\Administrator\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\Administrator\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\Administrator\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\Administrator\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Administrator\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Administrator\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Administrator\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\Administrator\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\Administrator\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-15.0.2.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire13913924554740367382\surefirebooter885752498681202865.jar C:\Users\Administrator\AppData\Local\Temp\surefire13913924554740367382 2022-02-15T01-15-18_637-jvmRun1 surefire635128932434826909tmp surefire_018361689567376214530tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\Desktop\Programming\Karate\karate-practice\target\test-classes;C:\Users\Administrator\Desktop\Programming\Karate\karate-practice\target\classes;C:\Users\Administrator\.m2\repository\com\intuit\karate\karate-junit5\1.1.0\karate-junit5-1.1.0.jar;C:\Users\Administrator\.m2\repository\com\intuit\karate\karate-core\1.1.0\karate-core-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\js\js-scriptengine\21.2.0\js-scriptengine-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\sdk\graal-sdk\21.2.0\graal-sdk-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\js\js\21.2.0\js-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\regex\regex\21.2.0\regex-21.2.0.jar;C:\Users\Administrator\.m2\repository\org\graalvm\truffle\truffle-api\21.2.0\truffle-api-21.2.0.jar;C:\Users\Administrator\.m2\repository\com\ibm\icu\icu4j\69.1\icu4j-69.1.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\Administrator\.m2\repository\com\jayway\jsonpath\json-path\2.6.0\json-path-2.6.0.jar;C:\Users\Administrator\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Administrator\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Administrator\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\Administrator\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Administrator\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.29\snakeyaml-1.29.jar;C:\Users\Administrator\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\Administrator\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\Administrator\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\Administrator\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\Administrator\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-15.0.2.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Administrator\Desktop\Programming\Karate\karate-practice"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire13913924554740367382\surefirebooter885752498681202865.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="localRepository" value="C:\Users\Administrator\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\Administrator\Desktop\Programming\Karate\karate-practice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-15.0.2.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\Administrator\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Administrator\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\AdoptOpenJDK\jdk-15.0.2.7-hotspot\bin;C:\Program Files\AdoptOpenJDK\jdk-8.0.282.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Administrator\Desktop\Programming\Maven\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Users\Administrator\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="15.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="2.399">
+    <failure message="status code was: 200, expected: 300, response time in milliseconds: 37, url: http://localhost:8080/api/v1/person, response: &#10;[{&quot;id&quot;:&quot;0037969c-dd97-4a01-ba5a-6dacdf8a0df7&quot;,&quot;name&quot;:&quot;Geo&quot;},{&quot;id&quot;:&quot;051f4af6-3e8e-42b2-9369-3c850e3d155f&quot;,&quot;name&quot;:&quot;Geodor&quot;}]&#10;classpath:examples/spring/spring.feature:57 ==&gt; expected: &lt;0&gt; but was: &lt;1&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 300, response time in milliseconds: 37, url: http://localhost:8080/api/v1/person, response: 
+[{"id":"0037969c-dd97-4a01-ba5a-6dacdf8a0df7","name":"Geo"},{"id":"051f4af6-3e8e-42b2-9369-3c850e3d155f","name":"Geodor"}]
+classpath:examples/spring/spring.feature:57 ==> expected: <0> but was: <1>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
+]]></failure>
+    <system-out><![CDATA[01:15:19.914 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:15:19.918 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1644858919917
+01:15:20.725 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+01:15:21.002 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:8080/api/v1/person
+1 > Host: localhost:8080
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/15.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:15:21.040 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 37
+1 < 200
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Mon, 14 Feb 2022 17:15:21 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"id":"0037969c-dd97-4a01-ba5a-6dacdf8a0df7","name":"Geo"},{"id":"051f4af6-3e8e-42b2-9369-3c850e3d155f","name":"Geodor"}]
+01:15:21.077 [pool-1-thread-1] ERROR com.intuit.karate - classpath:examples/spring/spring.feature:57
+Then status 300
+status code was: 200, expected: 300, response time in milliseconds: 37, url: http://localhost:8080/api/v1/person, response: 
+[{"id":"0037969c-dd97-4a01-ba5a-6dacdf8a0df7","name":"Geo"},{"id":"051f4af6-3e8e-42b2-9369-3c850e3d155f","name":"Geodor"}]
+classpath:examples/spring/spring.feature:57
+---------------------------------------------------------
+feature: classpath:examples/spring/spring.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.3182
+---------------------------------------------------------
+
+01:15:21.494 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:examples/spring/spring.feature
+Karate version: 1.1.0
+======================================================
+elapsed:   2.04 | threads:    5 | thread time: 0.32 
+features:     1 | skipped:    0 | efficiency: 0.03
+scenarios:    1 | passed:     0 | failed: 1
+======================================================
+>>> failed features:
+status code was: 200, expected: 300, response time in milliseconds: 37, url: http://localhost:8080/api/v1/person, response: 
+[{"id":"0037969c-dd97-4a01-ba5a-6dacdf8a0df7","name":"Geo"},{"id":"051f4af6-3e8e-42b2-9369-3c850e3d155f","name":"Geodor"}]
+classpath:examples/spring/spring.feature:57
+<<<
+
+HTML report: (paste into browser to view) | Karate version: 1.1.0
+file:///C:/Users/Administrator/Desktop/Programming/Karate/karate-practice/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+</testsuite>

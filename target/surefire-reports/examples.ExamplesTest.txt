@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExamplesTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.41 s <<< FAILURE! - in examples.ExamplesTest
+testParallel  Time elapsed: 2.399 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 300, response time in milliseconds: 37, url: http://localhost:8080/api/v1/person, response: 
+[{"id":"0037969c-dd97-4a01-ba5a-6dacdf8a0df7","name":"Geo"},{"id":"051f4af6-3e8e-42b2-9369-3c850e3d155f","name":"Geodor"}]
+classpath:examples/spring/spring.feature:57 ==> expected: <0> but was: <1>
+	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
+
